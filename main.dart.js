@@ -51001,7 +51001,7 @@ m=A.lu(B.H,A.a([p,A.nn(f,A.yv(A.a([n,A.fs("Kurniawan & Ratna",f,f,A.abw(f,f,f,f,
 p=A.cZ(f,A.fs("The Wedding of",f,f,A.dy(f,f,B.i,f,f,f,f,f,f,f,f,18,f,f,B.l,f,f,!0,f,f,f,f,f,f,f,f),f),f,f,f,B.xL,f,f)
 n=A.fs("Ratna Mutu Manik Manikam A.md",f,f,A.a8q(B.l,B.ta),f)
 k=A.xx(B.i,B.dR,"Putri dari Bpk. Jayadi\n& Ibu Kasmi ( Almh )",B.by,"normal")
-p=A.cZ(f,A.yv(A.a([p,n,k,A.cZ(f,A.fs("&",f,f,A.dy(f,f,B.i,f,f,f,f,f,f,f,f,46,f,f,B.l,f,f,!0,f,f,f,f,f,f,f,f),f),f,f,f,B.k4,f,f),A.fs("Kurniawan Dwi Prasetyo A.md",f,f,A.a8q(B.l,B.ta),f),A.xx(B.i,B.dR,"Putra dari Bpk. Sutini Harianto\n& Ibu Sutiyem ( Almh )",B.by,"normal")],l),B.b7,B.bZ),f,new A.dk(B.aD,f,f,f,f,f,B.a9),f,f,B.k3,1/0)
+p=A.cZ(f,A.yv(A.a([p,n,k,A.cZ(f,A.fs("&",f,f,A.dy(f,f,B.i,f,f,f,f,f,f,f,f,46,f,f,B.l,f,f,!0,f,f,f,f,f,f,f,f),f),f,f,f,B.k4,f,f),A.fs("Kurniawan Dwi Prasetyo A.md",f,f,A.a8q(B.l,B.ta),f),A.xx(B.i,B.dR,"Putra dari Bpk. Sutini Harianto\n& Ibu Sutiyem",B.by,"normal")],l),B.b7,B.bZ),f,new A.dk(B.aD,f,f,f,f,f,B.a9),f,f,B.k3,1/0)
 n=s.gdh()
 k=s.w
 n=n.bE(0,k==null?A.aU():k)
