@@ -1,58 +1,312 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Kurniawan & Ratna</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/wedding/">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="wedding_web">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-  <title>wedding_web</title>
-  <link rel="manifest" href="manifest.json">
+	</head>
+	<body>
+	<audio id="my_audio" src="music/backsound.mp3" loop="loop"></audio>
+	<script>
+	window.onload = function() {
+		document.getElementById("my_audio").play();
+	}
+	</script>	
+	<div class="fh5co-loader"></div>
+	<div id="page">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/background-top-new.JPG);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h2>Wedding Invitation</h2>
+							<h1>Kurniawan &amp; Ratna</h1>
+							<h2>09. 07. 2023</h2>
+							<!-- <div class="simply-countdown simply-countdown-one"></div> -->
+							<!-- <p><a href="#" class="btn btn-default btn-sm">Save the date</a></p> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1100476372';
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
-</head>
-<body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function(engineInitializer) {
-        return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
-        return appRunner.runApp();
-      });
+	<div id="fh5co-couple">
+		<div class="container">
+			<p>The Wedding of</p>
+			<div class="couple-wrap animate-box">
+				<div class="couple-half">
+					<div class="desc-groom">
+						<h3><strong>Ratna Mutu Manik M A.md</strong></h3>
+						<p> </p>Putri dari Bpk. Jayadi
+						<br>& Ibu Kasmi ( Almh ) </p>
+					</div>
+				</div>
+				<p class="heart text-center"><i class="icon-heart2"></i></p>
+				<div class="couple-half">
+					<div class="desc-bride">
+						<h3><strong>Kurniawan Dwi Prasetyo A.md</strong></h3>
+						<p>Putra dari Bpk. Sutini Harianto<br>& Ibu Sutiyem</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/background-splash.png);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Our Special Events</span>
+					<h2>Wedding Events</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="display-t">
+					<div class="display-tc">
+						<div class="col-md-10 col-md-offset-1">
+							<div class="col-md-6 col-sm-6 text-center">
+								<div class="event-wrap animate-box">
+									<h3>Akad Nikah</h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>08:00 AM</span>
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Minggu 9</span>
+										<span>Juli 2023</span>
+									</div>
+									<p>Rumah Bapak Jayadi <br>  Jalan Sekar Taman 15A, RT01/RW03<br> Tonatan, Kabupaten Ponorogo</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 text-center">
+								<div class="event-wrap animate-box">
+									<h3>Resepsi</h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>10:00 AM</span>
+										<span>12:00 AM</span>
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Minggu 9</span>
+										<span>Juli 2023</span>
+									</div>
+									<p>Rumah Bapak Jayadi <br>  Jalan Sekar Taman 15A, RT01/RW03<br> Tonatan, Kabupaten Ponorogo</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-testimonial">
+		<div class="container">
+			<div class="row">
+				<div class="row animate-box">
+					<p>Lokasi Resepsi</p>
+				</div>
+				<!-- add google maps -->
+				<div class="col-md-12">
+					<div class="fh5co-map animate-box">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.740821821301!2d111.4666303147749!3d-7.870000994299768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!
+						3m3!1m2!1s0x2dd7f9b0b0b0b0b1%3A0x2b0b0b0b0b0b0b0b!2sJl.+Sekar+Taman+15A%2C+Tonatan%2C+Kec.+Ponorogo%2C+Kabupaten+Ponorogo%2C+Jawa+Timur+63411!5e0!3m2!1sid!2sid!4v156
+						1963886124!5m2!1sid!2sid" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-gallery" class="fh5co-section-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Our Memories</span>
+					<h2>Wedding Gallery</h2>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-12">
+					<ul id="fh5co-gallery-list">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/iwan-5.JPG); "> 
+						<a href="#">
+							<div class="case-studies-summary">
+								<span>Photos</span>
+								<h2>You Near Me</h2>
+							</div>
+						</a>
+					</li>
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/background-splash.png); ">
+						<a href="#" class="color-2">
+							<div class="case-studies-summary">
+								<span>Photos</span>
+								<h2>Timer starts now!</h2>
+							</div>
+						</a>
+					</li>
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/iwan-1.JPG); ">
+						<a href="#" class="color-3">
+							<div class="case-studies-summary">
+								<span>Photos</span>
+								<h2>They'll take us where we want to go</h2>
+							</div>
+						</a>
+					</li>
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/iwan-2.JPG); ">
+						<a href="#" class="color-4">
+							<div class="case-studies-summary">
+								<span>Photos</span>
+								<h2>Nothing's gonna change my love for you</h2>
+							</div>
+						</a>
+					</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/iwan-3.JPG); ">
+							<a href="#" class="color-3">
+								<div class="case-studies-summary">
+									<span>Photos</span>
+									<h2>Our love will lead the way for us</h2>
+								</div>
+							</a>
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/iwan-4.JPG); ">
+							<a href="#" class="color-4">
+								<div class="case-studies-summary">
+									<span>Photos</span>
+									<h2>So come with me and share the view</h2>
+								</div>
+							</a>
+						</li>
+					</ul>		
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/iwan-3.JPG);">
+		<div class="container">
+			<br>
+			<div class="event-wrap animate-box">
+				<h3>Amplop Digital</h3>
+				<h5 class="text-a">Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless</h5>
+				<p><br>GOPAY <br>085606954140</p>
+				<p>BANK MANDIRI <br>1710006642105</p>
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-gallery" class="fh5co-section-gray">
+		<div class ="penutup">
+			<p>Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu. Atas kehadiran dan doa restunya, kami mengucapkan terima kasih.</p>
+			<p>Wassalamu'alaikum Wr. Wb.</p>
+		</div>
+	</div>
+	<!-- create box with dark color -->
+	<div class="bottom-box">
+		
+	</div>
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+
+	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+	<script src="js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	<script>
+    var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate()
     });
-  </script>
-</body>
+
+    //jQuery example
+    $('#simply-countdown-losange').simplyCountdown({
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: false
+    });
+</script>
+
+	</body>
 </html>
+
