@@ -19,6 +19,16 @@ body {
   background: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
 p {
   text-align: center;
   margin-top: 0px;
