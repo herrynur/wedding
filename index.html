@@ -66,10 +66,10 @@
         }
 	</script>
 	<div class="fh5co-loader"></div>
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/background-splash-c.png); height: 100vh;">
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/background-top.png); height: 100vh;">
 		<div class="overlay"></div>
 		<div class="container">
-			<div class="row">
+			<div class="row">s
 				<div class="text-center fh5co-heading animate-box" style="margin-top: 30px;">
 					<span>Wedding Invitation</span>
 					<h2>Kurniawan & Ratna</h2>
@@ -80,21 +80,24 @@
 					<a href="#page">
 						<button class="transparent-button" style="margin-top: 26px;" onclick="playMusic()">Buka Undangan</button>
 						<style>
+							html {
+								scroll-behavior: smooth;
+							}
 							.transparent-button {
-							  background-color: white;
-							  border: 2px solid white;
-							  border-radius: 16px;
-							  color: black;
-							  margin: 0;
-							  padding: 10px 20px;
-							  font-size: 16px;
-							  cursor: pointer;
+								background-color: white;
+								border: 2px solid white;
+								border-radius: 16px;
+								color: black;
+								margin: 0;
+								padding: 10px 20px;
+								font-size: 16px;
+								cursor: pointer;
 							}
 
 							.transparent-button:hover {
-							  background-color: white;
-							  color: black;
-							  transition: background-color 0.3s ease;
+								background-color: white;
+								color: black;
+								transition: background-color 0.3s ease;
 							}
 						</style>
 					</a>
@@ -143,7 +146,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/background-splash-c.png);">
+		<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/background-events.png);">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -225,7 +228,7 @@
 					<div class="col-md-12">
 						<ul id="fh5co-gallery-list">
 							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/iwan-5-c.png); ">
+								style="background-image: url(images/iwan-5.png); ">
 								<a href="#">
 									<div class="case-studies-summary">
 										<span>Photos</span>
@@ -243,7 +246,7 @@
 								</a>
 							</li>
 							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/iwan-1-c.png); ">
+								style="background-image: url(images/iwan-2.png); ">
 								<a href="#" class="color-3">
 									<div class="case-studies-summary">
 										<span>Photos</span>
@@ -252,7 +255,7 @@
 								</a>
 							</li>
 							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/iwan-2-c.png); ">
+								style="background-image: url(images/iwan-1.png); ">
 								<a href="#" class="color-4">
 									<div class="case-studies-summary">
 										<span>Photos</span>
@@ -260,9 +263,8 @@
 									</div>
 								</a>
 							</li>
-
 							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/iwan-3-c.png); ">
+								style="background-image: url(images/iwan-3.png); ">
 								<a href="#" class="color-3">
 									<div class="case-studies-summary">
 										<span>Photos</span>
@@ -271,7 +273,16 @@
 								</a>
 							</li>
 							<li class="one-third animate-box" data-animate-effect="fadeIn"
-								style="background-image: url(images/iwan-4-c.png); ">
+								style="background-image: url(images/iwan-4.png); ">
+								<a href="#" class="color-4">
+									<div class="case-studies-summary">
+										<span>Photos</span>
+										<h2>So come with me and share the view</h2>
+									</div>
+								</a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/iwan-6.png); ">
 								<a href="#" class="color-4">
 									<div class="case-studies-summary">
 										<span>Photos</span>
@@ -284,15 +295,174 @@
 				</div>
 			</div>
 		</div>
-		<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/iwan-3-c.png);">
+		<div id="fh5co-couple">
+			<div class="container">
+				<h3 style="margin-bottom: 0; margin-top: 0; text-align: center;">Ucapkan Sesuatu</h3>
+				<p>Berikan Ucapan & Doa Restu</p>
+			</div>
+			<div class="form-group" style="padding-left: 8px; padding-right: 8px;">
+				<label for="exampleInputEmail1">Nama</label>
+				<input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Masukan Nama">
+			</div>
+			<div class="form-group" style="padding-left: 8px; padding-right: 8px;">
+				<label for="exampleInputEmail1">Ucapan</label>
+				<textarea class="form-control" id="ucapanData" rows="4" placeholder="Masukan Ucapan"></textarea>
+				<small id="emailHelp" class="form-text text-muted">Berikan Ucapan ataupun Doa</small>
+			</div>
+			<center>
+				<button class="transparent-button-1" style="margin-top: 2px;" onclick="postData()">Kirim Ucapan</button>
+			</center>
+			<div id="slideshow-container"></div>
+				<style>
+					.transparent-button-1 {
+						background-color: transparent;
+						border: 2px solid rgb(143, 143, 143);
+						border-radius: 16px;
+						color: black;
+						margin: 0;
+						padding: 10px 20px;
+						font-size: 16px;
+						cursor: pointer;
+						position: relative;
+						justify-content: center; 
+						text-align: center;
+					}
+					.transparent-button:hover {
+						background-color: white;
+						color: black;
+						transition: background-color 0.3s ease;
+					}
+					.mySlides {
+						display: none;
+						position: relative;
+						background: #f1f1f1f1;
+						margin: 0;
+						padding: 40px;
+						text-align: center;
+						margin-top: 16px;
+					}
+
+					.author {
+						position: relative;
+						bottom: 0;
+						right: 0;
+						color: cornflowerblue;
+						font-style: italic;
+					}
+				</style>
+				<script>
+					const base = "https://gateway.weddingiwandanratna.my.id/";
+					const child = "UcapanController.php"
+
+					const apiUrl = base + child;
+
+					async function fetchApi(url) {
+						const response = await fetch(url);
+						const data = await response.json();
+
+						if (response) {
+							hideloader();
+						}
+						//show(data);
+					}
+
+					function fetchDataApi() {
+						fetch(apiUrl)
+							.then(response => response.json())
+							.then(data => {
+								var slideshowContainer = document.getElementById('slideshow-container');
+
+								// Membuat elemen slide dan mengisi dengan data dari API
+								data.forEach(quoteData => {
+									var slide = document.createElement('div');
+									slide.className = 'mySlides';
+
+									var quoteElement = document.createElement('q');
+									quoteElement.textContent = quoteData['ucapan'];
+
+									var authorElement = document.createElement('p');
+									authorElement.className = 'author';
+									authorElement.textContent = '-' + quoteData['name'];
+
+									slide.appendChild(quoteElement);
+									slide.appendChild(authorElement);
+									slideshowContainer.appendChild(slide);
+								});
+
+								// Memulai slideshow
+								var slides = document.getElementsByClassName('mySlides');
+								var slideIndex = 0;
+								showSlide();
+
+								function showSlide() {
+									for (var i = 0; i < slides.length; i++) {
+										slides[i].style.display = 'none';
+									}
+									slideIndex++;
+									if (slideIndex > slides.length) {
+										slideIndex = 1;
+									}
+									slides[slideIndex - 1].style.display = 'block';
+									setTimeout(showSlide, 2000); // Ganti slide setiap 2 detik
+								}
+							})
+							.catch(error => {
+								console.error('Error:', error);
+						});
+					}
+					fetchDataApi();
+					//fetchApi(apiUrl);
+
+					function hideloader() {
+						document.getElementById('loading').style.display = 'none';
+					}
+
+					function clearText() {
+						document.getElementById("name").value = "";
+						document.getElementById("ucapanData").value = "";
+					}
+
+					function postData() {
+						var name = document.getElementById("name").value;
+						var ucapan = document.getElementById("ucapanData").value;
+
+						var data = {
+							name: name,
+							ucapan: ucapan
+						};
+
+						console.log(data);
+
+						fetch(apiUrl, {
+							method: 'POST',
+							headers: {
+								'Content-Type': 'application/json'
+							},
+							body: JSON.stringify(data)
+						})
+						.then(response => response.json())
+						.then(result => {
+							console.log(result);
+							fetchDataApi();
+							clearText();
+						})
+						.catch(error => {
+							console.error('Error:', error);
+						});
+
+						//Password sql : oi?23sD63
+					}
+				</script>
+		</div>
+		<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/iwan-1.png);">
 			<div class="container">
 				<br>
 				<div class="event-wrap animate-box">
-					<h3>Amplop Digital</h3>
+					<h3 style="color: white;">Amplop Digital</h3>
 					<h5 class="text-a">Dan jika memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara
 						cashless</h5>
-					<p>BANK BCA <br>5200354160</p>
-					<p>Atas Nama <br>Ratna Mutu M. M</p>
+					<p style="color: white;">BANK BCA <br>5200354160</p>
+					<p style="color: white;">Atas Nama <br>Ratna Mutu M. M</p>
 				</div>
 			</div>
 		</div>
